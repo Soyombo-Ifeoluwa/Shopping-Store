@@ -1,0 +1,5 @@
+https://www-karisma-store.netlify.app
+https://www-karisma-store.netlify.app/home
+https://www-karisma-store.netlify.app/shop
+https://www-karisma-store.netlify.app/about
+https://www-karisma-store.netlify.app/contact
