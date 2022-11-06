@@ -15,7 +15,6 @@ const Shop = lazy(() => import("./Components/Shop"));
 const About = lazy(() => import("./Components/About"));
 const Contact = lazy(() => import("./Components/Contact"));
 const UserProfile = lazy(() => import("./Components/Profile"));
-const Collector = lazy(() => import("./NestedRoutes/Collector"));
 const Login = lazy(() => import("./LoginPage/Login"));
 
 const OurFallbackComponent = ({
@@ -46,19 +45,27 @@ export default function App() {
         <div className="App">
           <Routes>
             <Route path="/" element={<Login />} />
-            <Route path="/home" element={<Home />}>
-              <Route path="home_id" element={<Collector />} />
-            </Route>
+
+            <Route path="/home" element={<Home />} />
+
             <Route path="/shop" element={<Shop />}>
               <Route path="shoe" element={<ShoeHome />} />
+
               <Route path="skirts" element={<SkirtSHome />} />
+
               <Route path="shirts" element={<ShirtsHome />} />
+
               <Route path="trousers" element={<TrousersHome />} />
+
               <Route path="hoodies" element={<HoodiesHome />} />
             </Route>
+
             <Route path="/about" element={<About />} />
+
             <Route path="/contact" element={<Contact />} />
+
             <Route path="/profile" element={<UserProfile />} />
+
             <Route path="/*" element={<PageNotFound />} />
           </Routes>
         </div>

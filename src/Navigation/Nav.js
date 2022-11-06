@@ -3,10 +3,11 @@ import { NavLink } from "react-router-dom";
 const Navigation = () => {
   return (
     <section>
+      
+      <div className="navigation">
       <div className="storename">
         <h3 className="STORE">KARISMA'S STORE</h3>
       </div>
-      <div className="navigation">
         <NavLink to="/home" className="nav">
           HOME
         </NavLink>

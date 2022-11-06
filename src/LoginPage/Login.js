@@ -18,8 +18,7 @@ const Login = () => {
           <link rel="canonical" href="/" />
           <meta name="description" content="Log In to our page." />
         </Helmet>
-        <h1 className="login-page">KARISMA'S STORE</h1>
-        <h1 className="form">Log-In Page.</h1>
+        <h1 className="login-page">WELCOME TO KARISMA'S STORE</h1>
         <input
           className="input"
           id="Fname"

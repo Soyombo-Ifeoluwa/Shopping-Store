@@ -1,16 +1,14 @@
 import { Route, Routes } from "react-router-dom";
 import Shoe from "./Shoe";
 
-
 const ShoeHome = () => {
-  return(
+  return (
     <div>
-      
       <Routes>
-        <Route path="shoe" element={<Shoe/>} />
+        <Route path="shoe" element={<Shoe />} />
       </Routes>
     </div>
-  )
-}
+  );
+};
 
 export default ShoeHome;
