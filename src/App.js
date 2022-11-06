@@ -46,9 +46,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Login />} />
 
-            <Route path="/home" element={<Home />} />
-
-            <Route path="/shop" element={<Shop />}>
+            <Route path="/home" element={<Home />}>
               <Route path="shoe" element={<ShoeHome />} />
 
               <Route path="skirts" element={<SkirtSHome />} />
@@ -59,6 +57,8 @@ export default function App() {
 
               <Route path="hoodies" element={<HoodiesHome />} />
             </Route>
+
+            <Route path="/shop" element={<Shop />} />
 
             <Route path="/about" element={<About />} />
 

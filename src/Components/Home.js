@@ -11,35 +11,56 @@ import TrousersHome from "../NestedRoutes/TrousersHome";
 const Home = () => {
   return (
     <div>
-      <Navigation />
+      <div className="header">
+        <Navigation />
+      </div>
       <div className="Home-page">
-      <Helmet>
-        <title>Home</title>
-        <link rel="canonical" href="/home" />
-        <meta name="description" content="Checkout Our shop" />
-      </Helmet>
-      <div className="column-box">
-      <div className="column">
-      <div className="Routes-nav">
-        <p> <ShoeHome /> </p>
-        <p> <SkirtSHome /> </p>
-         <p><ShirtsHome /> </p>
-       <p> <TrousersHome /></p>
-        <p> <HoodiesHome /> </p>
+        <Helmet>
+          <title>Home</title>
+          <link rel="canonical" href="/home" />
+          <meta name="description" content="Checkout Our shop" />
+        </Helmet>
+        <div className="main-page">
+          <div className="column-box">
+            <div className="column">
+              <div className="Routes-nav">
+                <h5 id="categories">Categories</h5>
+                <p>
+                  {" "}
+                  <ShoeHome />{" "}
+                </p>
+                <p>
+                  {" "}
+                  <SkirtSHome />{" "}
+                </p>
+                <p>
+                  <ShirtsHome />{" "}
+                </p>
+                <p>
+                  {" "}
+                  <TrousersHome />
+                </p>
+                <p>
+                  {" "}
+                  <HoodiesHome />{" "}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="home">
+            <h1 className="title">KARIS COLLECTIONS..</h1>
+            <p className="advert">
+              Discover something new every day - whether it's that sweatshirt
+              you saw on Insta or the dress you never knew you wanted
+            </p>
+            <div />
+            <div className="wrapper">
+              <Collections />
+            </div>
+          </div>
+        </div>
       </div>
-      </div>
-      </div>
-      <div className="home">
-        <h1 className="title">KARIS COLLECTIONS..</h1>
-        <p className="advert">
-          Discover something new every day - whether it's that sweatshirt you
-          saw on Insta or the dress you never knew you wanted
-        </p>
-        <div />
-          <Collections />
-      </div>
-      </div>
-      </div>
+    </div>
   );
 };
 

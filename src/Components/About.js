@@ -17,7 +17,7 @@ const About = () => {
         </p>
       </div>
       <div className="About">
-        <h1>-About-</h1>
+        <h1 className="about">-About-</h1>
         <p className="parag">
           At KARIS, we all come to work everyday because we want to solve the
           biggest clothing problem in mobile.

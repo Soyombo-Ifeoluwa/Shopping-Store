@@ -3,34 +3,51 @@ import { NavLink } from "react-router-dom";
 const Navigation = () => {
   return (
     <section>
-      
       <div className="navigation">
-      <div className="storename">
-        <h3 className="STORE">KARISMA'S STORE</h3>
-      </div>
-        <NavLink to="/home" className="nav">
-          HOME
-        </NavLink>
+        <div className="storename">
+          <h3 className="STORE">KARISMA'S </h3>
+        </div>
+        <div className="Nav">
+          <ul className="list">
+            <li id="list">
+              <NavLink to="/home" className="nav">
+                <h5> Home</h5>
+              </NavLink>
+            </li>
 
-        <NavLink to="/shop" className="nav">
-          SHOP
-        </NavLink>
+            <li id="list">
+              {" "}
+              <NavLink to="/shop" className="nav">
+                <h5> Shop</h5>
+              </NavLink>
+            </li>
 
-        <NavLink to="/about" className="nav">
-          ABOUT
-        </NavLink>
+            <li id="list">
+              <NavLink to="/about" className="nav">
+                <h5>About</h5>
+              </NavLink>
+            </li>
 
-        <NavLink to="/contact" className="nav">
-          CONTACT
-        </NavLink>
+            <li id="list">
+              <NavLink to="/contact" className="nav">
+                <h5>Contact</h5>
+              </NavLink>
+            </li>
 
-        <NavLink to = "/profile" className="nav">
-          My Profile
-          </NavLink>
+            <li id="list">
+              <NavLink to="/profile" className="nav">
+                <h5>My Profile</h5>
+              </NavLink>{" "}
+            </li>
 
-          <NavLink to ="/" className="nav">
-            Log Out
-            </NavLink>
+            <li id="list">
+              {" "}
+              <NavLink to="/" className="nav">
+                <h5>Log Out</h5>
+              </NavLink>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   );
