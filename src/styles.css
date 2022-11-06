@@ -24,6 +24,11 @@
   margin-top: 60px;
 }
 
+/* #body{
+  float:left;
+} */
+
+
 .nav2 {
   text-decoration: none;
   margin-right: 20px;
@@ -52,6 +57,9 @@
   padding: 10px 55px;
   font-family: sans-serif;
   background-color: #000c19;
+}
+.nested-nav:hover{
+  font-size:22px;
 }
 
 #img {
@@ -1032,9 +1040,9 @@
 }
 
 
-
 .input-form {
-  margin-left: 500px;
+  width: 40%;
+  margin-left: 550px;
   margin-top: 150px;
 }
 .input[type="button"] {
