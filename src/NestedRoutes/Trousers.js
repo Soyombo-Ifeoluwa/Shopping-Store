@@ -2,7 +2,7 @@
 
 const Trousers = () => {
   return(
-    <div>
+    <div className="trouser-container">
       <div id="img" className="trouser"></div>
       <div id="img" className="trouser1"></div>
       <div id="img" className="trouser2"></div>

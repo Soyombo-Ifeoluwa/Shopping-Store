@@ -9,7 +9,7 @@ import TrousersHome from "../NestedRoutes/TrousersHome";
 const Shop = () => {
   return (
     <section>
-      <div>
+      <div className="shop-section">
         <Navigation />
         <div>
           <Helmet>
@@ -20,12 +20,7 @@ const Shop = () => {
               content="Check out our clothings and assesories"
             />
           </Helmet>
-          <div className="heading">
-            <p className="heading-parag">
-              We've got variety of clothings and shoe wears, it is up to
-              you.....
-            </p>
-          </div>
+          
           <div>
             <ShoeHome/>
             <ShirtsHome/>
