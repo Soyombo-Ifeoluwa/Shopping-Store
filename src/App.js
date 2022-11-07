@@ -46,19 +46,20 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Login />} />
 
-            <Route path="/home" element={<Home />}>
-              <Route path="shoe" element={<ShoeHome />} />
+            <Route path="/home" element={<Home />}/>
 
-              <Route path="skirts" element={<SkirtSHome />} />
 
-              <Route path="shirts" element={<ShirtsHome />} />
+            <Route path="/shop" element={<Shop />} >
+            <Route path="shoe" element={<ShoeHome />} />
 
-              <Route path="trousers" element={<TrousersHome />} />
+<Route path="skirts" element={<SkirtSHome />} />
 
-              <Route path="hoodies" element={<HoodiesHome />} />
-            </Route>
+<Route path="shirts" element={<ShirtsHome />} />
 
-            <Route path="/shop" element={<Shop />} />
+<Route path="trousers" element={<TrousersHome />} />
+
+<Route path="hoodies" element={<HoodiesHome />} />
+</Route>
 
             <Route path="/about" element={<About />} />
 

@@ -14,6 +14,7 @@ const Contact = () => {
         <link rel="canonical" href="/contact" />
         <meta name="description" content="Talk to us." />
       </Helmet>
+      <div className="Contact-Page">
       <div className="contact-page">
         <h1 className="contact-header">How Can We Help You?</h1>
         <p className="contact-parag">Fill our Contact Form to reach us.</p>
@@ -54,6 +55,7 @@ const Contact = () => {
         >
           Submit
         </button>
+      </div>
       </div>
     </section>
   );

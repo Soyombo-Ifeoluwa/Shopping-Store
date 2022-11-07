@@ -3,8 +3,9 @@ import Navigation from "../Navigation/Nav";
 
 const About = () => {
   return (
-    <div>
+  <div>
       <Navigation />
+      <div className="A-page">
       <div className="Mission">
         <Helmet>
           <title>About Page</title>
@@ -52,6 +53,7 @@ const About = () => {
           <br />
           Email: karisesscence20@gmail.com
         </h2>
+      </div>
       </div>
     </div>
   );

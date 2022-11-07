@@ -2,7 +2,7 @@
 
 const Shirts = () => {
   return (
-    <section>
+    <section classname="shirt-container">
       <div id="img" className="shirt"></div>
       <div id="img" className="shirt1"></div>
       <div id="img" className="shirt2"></div>
