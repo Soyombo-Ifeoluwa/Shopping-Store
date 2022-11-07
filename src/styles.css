@@ -41,21 +41,22 @@
 }
 
 .nested-bar {
-  list-style-type: none;
-  margin-top:300px;
-  position: fixed;
-  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
-
 
 .nested-nav {
   text-decoration: none;
   margin-right: 60px;
-  font-size: 25px;
-  color:#734f96;
+  margin-left: 70px;
+  font-size: 20px;
+  color: #734f96;
+  border: 1px solid white;
+  border-radius: 20px;
   padding: 10px 55px;
   font-family: sans-serif;
 }
+
 .nested-nav:hover {
   font-size: 22px;
   color: black;
@@ -84,7 +85,30 @@
   color: white;
   margin-left: 60px;
 }
+.trouser-container{
+  position: absolute;
+  margin-top: 100px;
+}
 
+.skirt-container{
+  position: absolute;
+  margin-top: 100px;
+}
+
+.shirts-container{
+  position: absolute;
+  margin-top: 100px;
+}
+
+.shoe-container{
+  position: absolute;
+  margin-top: 100px;
+}
+
+.shop-section{
+  position: absolute;
+  margin-top: 5px;
+}
 .bg-title {
   color: #000c19;
   position: absolute;

@@ -1,6 +1,6 @@
 const Shoe = () => {
   return (
-    <section className="img-css">
+    <section className="shoe-container">
       <div id="img" className="shoe"></div>
       <div id="img" className="shoes1"></div>
       <div id="img" className="shoes2"></div>

@@ -1,6 +1,6 @@
 const Skirts = () => {
   return (
-    <section>
+    <section className="skirt-container">
       <div id="img" className="skirt"></div>
       <div id="img" className="skirt1"></div>
       <div id="img" className="skirt2"></div>
