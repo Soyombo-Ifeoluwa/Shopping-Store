@@ -2,7 +2,6 @@ import { Helmet } from "react-helmet-async";
 import Navigation from "../Navigation/Nav";
 import Collections from "../NestedRoutes/Collections";
 
-
 const Home = () => {
   return (
     <div>

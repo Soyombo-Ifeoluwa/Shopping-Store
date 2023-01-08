@@ -20,13 +20,13 @@ const Shop = () => {
               content="Check out our clothings and assesories"
             />
           </Helmet>
-          
+
           <div>
-            <ShoeHome/>
-            <ShirtsHome/>
-            <SkirtSHome/>
-            <TrousersHome/>
-           <HoodiesHome/> 
+            <ShoeHome />
+            <ShirtsHome />
+            <SkirtSHome />
+            <TrousersHome />
+            <HoodiesHome />
           </div>
         </div>
       </div>
